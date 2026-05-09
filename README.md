@@ -7,8 +7,7 @@
 **24/7 Autonomous Finance AI Agent** (Live)  
 Designed, deployed, and currently operate a fully autonomous personal finance AI agent running 24/7 on dedicated Mac Mini hardware.  
 Built with **OpenClaw + Ollama** (local LLMs).  
-Features include scheduled daily market summaries, custom finance skills, real-time Telegram alerts, long-term memory, state management, and human-in-the-loop workflows.  
-→ [View Repository](https://github.com/hunterna2/openclaw-finance-agent)   <!-- ← Change this link to your actual repo -->
+Features include scheduled daily market summaries, custom finance skills, real-time Telegram alerts, long-term memory, state management, and human-in-the-loop workflows.   <!-- ← Change this link to your actual repo -->
 
 **Multi-Agent Financial Analysis Workflow**  
 Built a LangGraph-based multi-agent system with four specialized agents (Researcher, Analyst, Compliance Checker, Reporter).  
