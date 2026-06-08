@@ -1,33 +1,36 @@
 # Hi, I'm Nicholas Hunter 👋
 
-Senior Software Engineer @ U.S. Bank · Building agentic AI & RAG systems for the finance domain (independent projects)"
+**Senior Software Engineer @ U.S. Bank** · 7 years in regulated banking · Building agentic AI & RAG systems through independent projects
 
-### Current AI Projects
+### AI Projects (independent / personal builds)
 
-**24/7 Autonomous Finance AI Agent** (Live)  
-Designed, deployed, and currently operate a fully autonomous personal finance AI agent running 24/7 on dedicated Mac Mini hardware.  
-Built with **OpenClaw + Ollama** (local LLMs).  
-Features include scheduled daily market summaries, custom finance skills, real-time Telegram alerts, long-term memory, state management, and human-in-the-loop workflows.   <!-- ← Change this link to your actual repo -->
+**24/7 Autonomous Finance AI Agent** (Live)
 
-**Multi-Agent Financial Analysis Workflow**  
-Built a LangGraph-based multi-agent system with four specialized agents (Researcher, Analyst, Compliance Checker, Reporter).  
-Accepts a single prompt and produces structured executive reports with compliance checks and data-driven insights.  
+Designed, deployed, and operate a fully autonomous personal finance AI agent running 24/7 on dedicated Mac Mini hardware. Built on a local-LLM stack (Ollama). Scheduled daily market summaries, custom finance skills, real-time Telegram alerts, long-term memory, state management, and human-in-the-loop workflows.
+
+**Multi-Agent Financial Analysis Workflow**
+
+LangGraph multi-agent system (Researcher, Analyst, Compliance, Reporter) with a supervisor router, an LLM-as-judge eval layer + CI quality gate, LangSmith tracing, and Azure Container Apps deployment. One prompt → a structured banking executive report.
+
 → [View Repository](https://github.com/hunterna2/multi-agent-finance-workflow)
 
-**Secure Financial Document RAG Chatbot**  
-Production-grade RAG system using Azure OpenAI (gpt-4o) and Azure AI Search.  
-Ingests regulatory and synthetic banking PDFs with domain-specific guardrails, citations, and hallucination detection.  
+**Financial Document RAG Chatbot** — _extended from Microsoft's reference architecture_
+
+Built on Microsoft's azure-search-openai-demo, extended for banking compliance: a custom grounded-citation prompt, hybrid vector + keyword search configuration, credential/endpoint handling for regional Azure resources, and a finance document set (Basel III, FDIC BSA/AML, OCC).
+
 → [View Repository](https://github.com/hunterna2/azure-search-openai-demo)
 
 ### Tech Stack
-**AI/ML**: LangGraph, Azure OpenAI, Ollama, OpenClaw, RAG, Agentic Systems, Prompt Engineering  
-**Backend**: Python (FastAPI, Flask)  
-**Frontend**: React  
-**Cloud & Infra**: Azure AKS, Docker, Kubernetes, CI/CD  
+
+- **AI/ML**: LangGraph, Azure OpenAI, Ollama, RAG, agentic systems, LLM evals, prompt engineering
+- **Backend**: Python (FastAPI, Flask)
+- **Frontend**: React
+- **Cloud & Infra**: Azure Container Apps, Azure AKS, Docker, Kubernetes, CI/CD
 
 ---
 
-Actively building and operating production AI systems in the finance domain.  
-Open to Staff and Lead AI Engineer opportunities focused on agentic AI, RAG pipelines, and production AI infrastructure.
+Building and operating LLM agent systems in the finance domain through independent projects — bringing 7 years of regulated-banking engineering to applied AI.
 
-[LinkedIn](https://www.linkedin.com/in/nicholas-hunter-94175a144/) | [Portfolio](https://nicholashunter.github.io/nicholashunter-resume)
+Open to **AI Engineer / Forward-Deployed / Applied-AI** roles focused on agentic AI and RAG pipelines.
+
+[LinkedIn](https://www.linkedin.com/in/nicholas-hunter-94175a144/)
