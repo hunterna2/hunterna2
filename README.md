@@ -1,6 +1,6 @@
 # Hi, I'm Nicholas Hunter 👋
 
-**Senior Software Engineer @ U.S. Bank** | Building production-grade AI systems in fintech
+Senior Software Engineer @ U.S. Bank · Building agentic AI & RAG systems for the finance domain (independent projects)"
 
 ### Current AI Projects
 
